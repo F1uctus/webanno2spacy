@@ -6,7 +6,7 @@ files to [spaCy](https://spacy.io)'s `Doc` format.
 
 ## Usage
 
-```bash
+```
 $ poetry install
 $ webanno2spacy --help
 Usage: webanno2spacy [OPTIONS] SPACY_MODEL INPUT_TEXT_FILE INPUT_WEBANNO_FILE
