@@ -44,7 +44,7 @@ jobs:
 
       - name: Lint with Ruff
         run: |
-          ruff --output-format=github .
+          poetry run ruff --output-format=github .
 
       - name: Check with MyPy
         run: |
