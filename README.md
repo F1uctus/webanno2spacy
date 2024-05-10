@@ -1,8 +1,15 @@
 # WebAnno ⟶ spaCy
 
+[![](https://img.shields.io/pypi/v/webanno2spacy)](https://pypi.org/project/webanno2spacy)
+[![](https://img.shields.io/pypi/wheel/webanno2spacy)](https://pypi.org/project/webanno2spacy/#files)
+
 A tool that helps you to convert the
 [WebAnno TSV 3.2](https://webanno.github.io/webanno/releases/3.4.5/docs/user-guide.html#sect_webannotsv)
 files to [spaCy](https://spacy.io)'s `Doc` format.
+
+## See also
+
+
 
 ## Usage
 
