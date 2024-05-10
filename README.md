@@ -25,3 +25,6 @@ Options:
                                   copy it or customize the installation.
   --help                          Show this message and exit.
 ```
+
+## TODO
+- Implement batch conversion of multiple files to DocBin 
