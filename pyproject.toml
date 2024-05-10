@@ -20,6 +20,9 @@ pytest = "^8.2.0"
 pytest-isort = "^4.0.0"
 ru_core_news_lg = { url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.7.0/ru_core_news_lg-3.7.0.tar.gz" }
 
+[tool.poetry.scripts]
+webanno2spacy = "webanno2spacy:app"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

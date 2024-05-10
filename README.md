@@ -7,9 +7,9 @@ files to [spaCy](https://spacy.io)'s `Doc` format.
 ## Usage
 
 ```bash
-$ python webanno2spacy.py --help
-Usage: webanno2spacy.py [OPTIONS] SPACY_MODEL INPUT_TEXT_FILE
-                        INPUT_WEBANNO_FILE
+$ poetry install
+$ webanno2spacy --help
+Usage: webanno2spacy [OPTIONS] SPACY_MODEL INPUT_TEXT_FILE INPUT_WEBANNO_FILE
 
 Arguments:
   SPACY_MODEL         [required]
@@ -18,5 +18,10 @@ Arguments:
 
 Options:
   --output-file PATH
-  --help              Show this message and exit.
+  --install-completion [bash|zsh|fish|powershell|pwsh]
+                                  Install completion for the specified shell.
+  --show-completion [bash|zsh|fish|powershell|pwsh]
+                                  Show completion for the specified shell, to
+                                  copy it or customize the installation.
+  --help                          Show this message and exit.
 ```
