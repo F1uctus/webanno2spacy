@@ -7,12 +7,6 @@ A tool that helps you to convert the
 [WebAnno TSV 3.2](https://webanno.github.io/webanno/releases/3.4.5/docs/user-guide.html#sect_webannotsv)
 files to [spaCy](https://spacy.io)'s `Doc` format.
 
-## See also
-
-- [WebAnno TSV 3.2 File format](https://webanno.github.io/webanno/releases/3.4.5/docs/user-guide.html#sect_webannotsv)
-- [spaCy custom relation extraction pipeline (YouTube)](https://www.youtube.com/watch?v=8HL-Ap5_Axo)
-- [spaCy custom relation extraction pipeline (code)](https://github.com/explosion/projects/tree/v3/tutorials/rel_component)
-
 ## Usage
 
 ```
@@ -37,3 +31,9 @@ Options:
 
 ## TODO
 - Implement batch conversion of multiple files to DocBin 
+
+## See also
+
+- [WebAnno TSV 3.2 File format](https://webanno.github.io/webanno/releases/3.4.5/docs/user-guide.html#sect_webannotsv)
+- [spaCy custom relation extraction pipeline (YouTube)](https://www.youtube.com/watch?v=8HL-Ap5_Axo)
+- [spaCy custom relation extraction pipeline (code)](https://github.com/explosion/projects/tree/v3/tutorials/rel_component)
