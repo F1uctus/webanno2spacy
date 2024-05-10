@@ -6,6 +6,15 @@
 A tool that helps you to convert the
 [WebAnno TSV 3.2](https://webanno.github.io/webanno/releases/3.4.5/docs/user-guide.html#sect_webannotsv)
 files to [spaCy](https://spacy.io)'s `Doc` format.
+The relations are saved into the Doc's `rel` extension attribute,
+in the same way as done in the [spaCy tutorial video](#see-also):
+```python
+{
+    (0, 6): { "label1": 1.0, "label2": 0.0, ... },
+    (6, 0): { "label1": 0.0, "label2": 0.0, ... },
+    ...
+}
+```
 
 ## Usage
 
