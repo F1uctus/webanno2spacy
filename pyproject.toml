@@ -14,7 +14,7 @@ spacy = "^3.7"
 mypy = "^1.10.0"
 black = ">=24.4.2,<26.0.0"
 ruff = ">=0.4.3,<0.14.0"
-isort = ">=5.13.2,<7.0.0"
+isort = ">=5.13.2,<8.0.0"
 pytest = "^8.2.0"
 pytest-isort = "^4.0.0"
 ru_core_news_lg = { url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.7.0/ru_core_news_lg-3.7.0.tar.gz" }
