@@ -11,7 +11,7 @@ python = ">=3.10,<4.0"
 spacy = "^3.7"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.10.0"
+mypy = ">=1.10,<3.0"
 black = ">=24.4.2,<27.0.0"
 ruff = ">=0.4.3,<0.16.0"
 isort = ">=5.13.2,<9.0.0"
