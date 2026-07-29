@@ -34,9 +34,9 @@ See also:
 import csv
 import logging
 import re
-from collections import defaultdict, Counter
+from collections import Counter, defaultdict
+from collections.abc import Iterator
 from pathlib import Path
-from typing import Iterator, Optional
 
 import spacy
 import typer
@@ -53,7 +53,7 @@ def convert_file(
     input_text_file: Path,
     input_webanno_file: Path,
     *,
-    output_file: Optional[Path] = None,
+    output_file: Path | None = None,
 ):
     nlp = spacy.load(spacy_model)
 
